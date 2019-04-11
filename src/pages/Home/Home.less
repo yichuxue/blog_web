@@ -1,0 +1,33 @@
+@import '~antd/lib/style/themes/default.less';
+
+a.listItemMetaTitle {
+  color: @heading-color;
+}
+
+.listItemExtra {
+  width: 272px;
+  height: 1px;
+}
+
+.cardList {
+  width: '1200px';
+  margin: '24px auto';
+}
+
+.headerTop {
+  height: 550px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1549344693088&di=6a1850d7cff47286425b6fe2a8469d86&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F7%2F592004e368ee1.jpg%3Fdown')
+}
+
+@media screen and (max-width: @screen-lg) {
+  .listItemExtra {
+    width: 0;
+    height: 1px;
+  }
+}
